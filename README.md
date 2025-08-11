@@ -76,19 +76,19 @@ curl "http://localhost:5005/route/v1/driving/-0.1276,51.5074;-0.1176,51.5084?ove
 Usage
 The OSRM servers are used by our Python interpolation scripts to:
 
-Snap GPS points to roads using the /nearest endpoint
-Generate routes between points using the /route endpoint
-Build plausible vehicle paths from raw IoT data
+- Snap GPS points to roads using the /nearest endpoint
+- Generate routes between points using the /route endpoint
+- Build plausible vehicle paths from raw IoT data
 
 Configuration
 
-Profiles: Custom routing profiles are stored in osrm-profiles/
-Ports: Each region runs on a dedicated port (5001-5005)
-Algorithm: Using MLD (Multi-Level Dijkstra) for optimal performance
+- Profiles: Custom routing profiles are stored in osrm-profiles/
+- Ports: Each region runs on a dedicated port (5001-5005)
+- Algorithm: Using MLD (Multi-Level Dijkstra) for optimal performance
 
 Maintenance
-Updating OSM Data
-To update the OSM data:
+- Updating OSM Data
+- To update the OSM data:
 
 Download new OSM files
 Stop the containers: docker-compose down
