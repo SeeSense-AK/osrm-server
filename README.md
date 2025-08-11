@@ -162,7 +162,6 @@ IoT Devices → Flespi → Raw JSON → CSV Conversion → Python Interpolation 
 
 Download the required OSM data files and place them in their respective directories:
 
-```bash
 # Create directories
 mkdir -p {finland,ireland,sydney,wales,england}
 
